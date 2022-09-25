@@ -9,7 +9,7 @@ nav{
 }
 
 nav ul{
-    margin: auto;
+    margin: 0;
     display: flex;
     list-style-type: none;
 }
@@ -33,7 +33,7 @@ nav a:hover{
 }
 
 nav img{
-    width: 4%;
+    width: 4em;
     margin-left: 80%;
 }
 
@@ -139,7 +139,7 @@ section{
 }
 
 .pacman:hover{
-    transform: translate(260px);
+    transform: translate(350px);
 }
 
 .ghost:hover{
@@ -151,7 +151,7 @@ section{
 }
 
 .square:hover{
-    color: blue;
+    background-color: blue;
 }
 
 footer{
