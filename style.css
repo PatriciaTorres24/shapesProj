@@ -65,6 +65,7 @@ section{
     width: 8rem;
     height: 7rem;
     border-radius: 8rem;
+    transition: 2s;
 }
 
 .square{
@@ -140,7 +141,7 @@ section{
 }
 
 .pacman:hover{
-    transform: translate(350px);
+    transform: translate(345px);
 }
 
 .ghost:hover{
@@ -155,6 +156,9 @@ section{
     background-color: blue;
 }
 
+.circle:hover{
+    transform: scale(2, 2);
+}
 footer{
     background-color: #5151ae;
     margin-top: 15em;
